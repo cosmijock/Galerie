@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom:3px purple solid;
+	border-right: 3px purple solid;
+	width: 300px;
+	text-align: center;
+	margin: 10px;
+}
+h1{
+	 animation: pulse 5s infinite;
+}
+
+	@keyframes pulse {
+  	0% {
+    background-color: #001F3F;
+  }
+  	100% {
+    background-color: #FF4136;
+  }
+}
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}
+img:hover{
+	transform: scale(1.1);
+}
+img{
+	transition: all 1s;
+}
